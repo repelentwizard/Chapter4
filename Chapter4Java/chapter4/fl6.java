@@ -15,7 +15,8 @@ public class fl6
 	double num2;
 	Scanner s = new Scanner(System.in);
         for (num2 = 0; num2 < num; num2++) {
-          System.out.print("Inserts a number: ");						                num1 += s.nextInt();
+          System.out.print("Inserts a number: ");
+	  num1 += s.nextInt();
           }
 	  System.out.println("The sum is " + num1);
           System.out.println("average is " + (num1 / num2));			    
