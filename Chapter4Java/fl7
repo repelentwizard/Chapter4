@@ -1,0 +1,31 @@
+public class MyClass {
+    public static void main(String args[]) {
+  Scanner scans = new Scanner(System.in);
+    System.out.print("what the HECK is its name\n");
+    String name=scans.next();
+
+    System.out.print("how many times do you want it");
+    int times=scans.nextInt();
+    while(times<=0)
+    {
+    System.out.print("\n WHAT HAVE YOU DONE TO ME MORTY!GO BACK!");	
+    }
+   
+    System.out.print("\n1neat or 2TRASH");	
+    int current=0;
+    int type=scans.nextInt();
+    	
+    
+    
+    if(type==1){
+    	while(current<=times)	
+    	System.out.print("\n"+name+"#"+current++);
+       	
+    }
+    
+    else{
+     	while(current<=times)	
+     	System.out.print(" "+name+"#"+current++);
+    }
+    }
+}
