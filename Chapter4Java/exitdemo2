@@ -1,0 +1,30 @@
+public class MyClass {
+    public static void main(String args[]) {
+     
+//using continue within a loop
+
+// eliminating the letter c
+
+String puppy="DipStick"; 
+
+int count = -1; 
+
+while (count < 7)
+
+{
+
+     count++;
+
+      if ( puppy.charAt(count) =='c')
+
+               continue; 
+
+    System.out.println(puppy.charAt(count));
+
+}
+
+System.out.println("Isn't this puppy a cutie!!");         
+
+
+    }
+}
