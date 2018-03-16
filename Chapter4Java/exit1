@@ -1,0 +1,28 @@
+public class MyClass {
+    public static void main(String args[]) {
+     
+ String name="whynoextension"; 
+
+    	 int count = -1; 
+
+    	 while (count < 13)
+
+    	 {
+
+    	      count++;
+
+    	       if ( name.charAt(count) == 'a' )
+
+    	                continue; 
+    	       if ( name.charAt(count) == 'A' )
+
+	                    continue; 
+
+    	      System.out.println(name.charAt(count));
+
+    	 }
+
+    	 System.out.println("Why no extension");     
+
+    }
+}
