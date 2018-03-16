@@ -1,0 +1,9 @@
+public class MyClass {
+    public static void main(String args[]) {
+    	 
+	 for(int extension=0;extension<8;extension++) 
+		  	System.out.println(1 << extension);
+     
+     
+    }
+}
