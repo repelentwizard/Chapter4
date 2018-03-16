@@ -1,0 +1,53 @@
+package yeeeeeeeeeeeeeeeeeeeeee;
+//Robert Young
+//java 6
+//mini trash
+import java.util.Scanner;
+public class yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee{
+     public static void main(String []args){
+    	 
+    	 
+    int week =0;     
+	int miles=0;
+    int gallons=0;	 
+    //int week_number=0;	 
+    //int miles_traveled=0;	 
+    //int gallons_purchased=0;	 
+    int MPG=0;	 
+    //int MPGd=0;	
+    Scanner scans = new Scanner(System.in);
+    
+    while(miles!=-99)
+    {
+    System.out.print("\n\n\nWeek:  "+ ++week);
+    
+    
+    
+    System.out.print("\nMiles:   ");
+    int miles_traveled = scans.nextInt();
+    System.out.print("Vacation miles traveled: "+miles_traveled);
+    
+    
+    
+    System.out.print("\nGallons:   ");
+    int gallons_purchased = scans.nextInt();
+    System.out.print(" Vacation gallons purchased: "+gallons_purchased);
+    
+    
+    
+    System.out.print("\nMPG:   ");
+    int MPGd = scans.nextInt();
+    System.out.print("MPG for the Vacation: "+MPGd);
+    }
+         
+    	 
+    	
+
+    	
+
+    	
+
+   
+   }
+
+	}
