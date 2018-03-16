@@ -1,0 +1,11 @@
+public class MyClass {
+    public static void main(String args[]) {
+     
+	 
+    	 int extension = 1;
+    	 
+    while(extension<=100)
+    System.out.print("\n"+extension++);	
+    	
+    }
+}
